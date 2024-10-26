@@ -32,6 +32,6 @@ class MedicalConsultationController extends Controller
                 'analysis' => $diagnosis,
                 'symptoms' => $request->symptoms
             ]);
-            // return view('consultation.result', ['analysis' => $diagnosis, 'symptoms' => $symptoms]);
+
         }
 }
